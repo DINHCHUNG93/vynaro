@@ -1,3 +1,38 @@
+
+
+🎦 AI nguồn mở “pháp sư” biến một bộ phim thành video kể chuyện hoàn chỉnh chỉ với vài cú nhấp chuột, một tính năng thú vị là có thể xuất toàn bộ kết quả qua Capcut
+
+Được phát triển trên Tauri 2, Rust và React 19, Vynaro hướng tới việc tạo ra một “AI Video Studio” dành riêng cho các nhà sáng tạo nội dung, đặc biệt là video kể chuyện, tóm tắt phim và short-form content.
+
+Điểm nổi bật của dự án:
+
+* Pipeline AI tự động gồm 7 bước, từ nhập video đến xuất bản thành phẩm.
+* Tự động phát hiện cảnh bằng FFmpeg và chia video thành các phân đoạn hợp lý.
+* AI tự viết lời dẫn theo nhiều phong cách như kể chuyện, review phim hoặc độc thoại nhân vật.
+* Hỗ trợ nhiều mô hình AI như GPT, Claude, Gemini, DeepSeek, Qwen, Kimi, GLM, Doubao, Hunyuan và cả Ollama chạy cục bộ.
+* Tích hợp nhiều hệ thống TTS như Edge-TTS, OpenAI TTS và GPT-SoVITS để tạo giọng đọc tự nhiên.
+* Tự động tạo phụ đề với căn chỉnh theo thời gian dựa trên phát hiện khoảng lặng trong âm thanh.
+* Đồng bộ lời đọc, nhạc nền và video với độ chính xác tới mili-giây.
+* Xuất trực tiếp sang định dạng dự án CapCut (.draft) để tiếp tục chỉnh sửa hoặc xuất video hoàn chỉnh.
+
+Kiến trúc rất đáng học hỏi:
+
+* Frontend sử dụng React 19 và TypeScript.
+* Desktop App xây dựng bằng Tauri 2 và Rust giúp nhẹ và hiệu năng cao.
+* Toàn bộ hệ thống được chia thành nhiều module độc lập như phát hiện cảnh, sinh kịch bản, TTS, tạo phụ đề, dựng video và xuất bản.
+* Dữ liệu dự án được lưu cục bộ bằng SQLite và JSON, dễ mở rộng và tùy biến.
+
+Ứng dụng thực tế:
+
+* Tạo video review và tóm tắt phim.
+* Sản xuất video kể chuyện cho TikTok, YouTube Shorts và Facebook Reels.
+* Tự động hóa quy trình dựng video bằng AI.
+* Xây dựng AI Video Factory cho các đội ngũ sản xuất nội dung.
+* Nghiên cứu kiến trúc AI Agent trong lĩnh vực tạo video.
+
+Nếu bạn đang nghiên cứu AI Video, AI Agent hoặc muốn xây dựng hệ thống sản xuất video tự động, Vynaro là một dự án mã nguồn mở rất đáng để tham khảo.
+
+
 <!-- markdownlint-disable MD060 MD040 MD041 MD047 -->
 
 <div align="center">
